@@ -58,5 +58,11 @@ export class Person {
 	public setPesel(value: string) {
 		this.pesel = value;
 	}
+   
 
+    // method show name and surname of user
+
+    show(): void {
+        console.log("Hi my name is: "  +  this.getFistName() + " " + this.getLastName());
+    }
 }
